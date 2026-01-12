@@ -1,11 +1,11 @@
 const container = document.querySelector(".container");
-const btnSingIn = document.getElementById("btn-sing-in");
-const btnSingUp = document.getElementById("btn-sing-up");
+const btnSignIn = document.getElementById("btn-sign-in");
+const btnSignUp = document.getElementById("btn-sign-up");
 
-btnSingIn.addEventListener("click", () => {
+btnSignIn.addEventListener("click", () => {
     container.classList.remove("toggle");
 })
 
-btnSingUp.addEventListener("click", () => {
+btnSignUp.addEventListener("click", () => {
     container.classList.add("toggle");
 });
