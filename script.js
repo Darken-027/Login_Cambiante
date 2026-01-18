@@ -4,7 +4,7 @@ const btnSignUp = document.getElementById("btn-sign-up");
 
 btnSignIn.addEventListener("click", () => {
     container.classList.remove("toggle");
-})
+});
 
 btnSignUp.addEventListener("click", () => {
     container.classList.add("toggle");
